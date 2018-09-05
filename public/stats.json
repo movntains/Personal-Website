@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-3e22eca9aa0242db26eb.js",
+      "component---src-pages-index-js-3e22eca9aa0242db26eb.js.map"
+    ],
+    "path---web-mountain-calling-info": [
+      "path---web-mountain-calling-info-a0e39f21c11f6a62c5ab.js",
+      "path---web-mountain-calling-info-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-cf23e2cb08ca20d76626.js",
+      "component---src-pages-contact-js-cf23e2cb08ca20d76626.js.map"
+    ],
+    "component---src-pages-mac-os-slack-clone-info-js": [
+      "component---src-pages-mac-os-slack-clone-info-js-2b6a839c86578420cf5b.js",
+      "component---src-pages-mac-os-slack-clone-info-js-2b6a839c86578420cf5b.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---education": [
+      "path---education-a0e39f21c11f6a62c5ab.js",
+      "path---education-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-f1f05b652599bbb1699f.js",
+      "component---src-layouts-index-js-f1f05b652599bbb1699f.js.map"
+    ],
+    "component---src-pages-education-js": [
+      "component---src-pages-education-js-9926c84e561ba474ea8c.js",
+      "component---src-pages-education-js-9926c84e561ba474ea8c.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---skills": [
+      "path---skills-a0e39f21c11f6a62c5ab.js",
+      "path---skills-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---mac-os-slack-clone-info": [
+      "path---mac-os-slack-clone-info-a0e39f21c11f6a62c5ab.js",
+      "path---mac-os-slack-clone-info-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-ed0e1dab9ede21a451fc.js",
+      "commons-ed0e1dab9ede21a451fc.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-67c928bcb2791ed5dd87.js",
+      "component---src-pages-projects-js-67c928bcb2791ed5dd87.js.map"
+    ],
+    "component---src-pages-web-mountain-calling-info-js": [
+      "component---src-pages-web-mountain-calling-info-js-531887b461c2f9fe7a97.js",
+      "component---src-pages-web-mountain-calling-info-js-531887b461c2f9fe7a97.js.map"
+    ],
+    "app": [
+      "app-3c21d7d46cfee694e7aa.js",
+      "app-3c21d7d46cfee694e7aa.js.map"
+    ],
+    "component---src-pages-skills-js": [
+      "component---src-pages-skills-js-965598a4a311e137d2a3.js",
+      "component---src-pages-skills-js-965598a4a311e137d2a3.js.map"
+    ]
+  }
+}
