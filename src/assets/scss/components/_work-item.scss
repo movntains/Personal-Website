@@ -1,0 +1,19 @@
+.work-item {
+  margin-bottom: _size(element-margin);
+
+  .image {
+    margin-bottom: (_size(element-margin) * 0.5);
+  }
+
+  h3 {
+    margin-bottom: (_size(element-margin) * 0.1);
+    font-size: 1.2em;
+    color: _palette(fg-alt);
+  }
+
+  p {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}

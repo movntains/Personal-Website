@@ -1,0 +1,78 @@
+// ----------------------------
+// ----- MAX-WIDTH: 736px -----
+// ----------------------------
+
+@include breakpoint(small) {
+  $size-header-pad: 1.5em;
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	section,
+	article {
+		&.special {
+			text-align: center;
+		}
+	}
+
+	header {
+		&.major {
+			h2 {
+				font-size: 1.35em;
+			}
+		}
+	}
+
+	ul {
+		&.labeled-icons {
+			li {
+				padding-left: 2em;
+
+				h3 {
+					line-height: 1.75em;
+				}
+			}
+		}
+	}
+
+	#header {
+		padding: ($size-header-pad * 1.5) $size-header-pad;
+
+		h1 {
+			font-size: 1.35em;
+		}
+	}
+
+	#footer {
+		padding: ($size-header-pad * 1.5) $size-header-pad;
+	}
+
+	.main {
+		padding: ($size-header-pad * 1.5) $size-header-pad (($size-header-pad * 1.5) - _size(element-margin)) $size-header-pad;
+
+		> section {
+			margin: ($size-header-pad * 1.5) 0 0 0;
+			padding: ($size-header-pad * 1.5) 0 0 0;
+		}
+	}
+
+	.poptrox-popup {
+		border-radius: 0;
+
+		.nav-next,
+		.nav-previous {
+			&:before {
+				margin-top: -1em;
+			}
+		}
+	}
+}

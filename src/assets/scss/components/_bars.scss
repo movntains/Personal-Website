@@ -1,0 +1,35 @@
+.bar-container {
+  margin-bottom: _size(element-margin);
+}
+
+.bar-container:last-of-type {
+  margin-bottom: 0;
+}
+
+.progress-bar {
+  position: relative;
+  width: 100%;
+  height: (_size(element-height) * 0.7);
+  background-color: _palette(accent2, fg);
+  border-radius: 4px;
+}
+
+.filler {
+  height: 100%;
+  border-radius: inherit;
+  background-color: lighten($color: _palette(accent2, fg), $amount: 15%);
+}
+
+.percentage {
+  position: absolute;
+  top: 2.5px;
+  right: 10px;
+  height: 100%;
+  border-radius: inherit;
+  color: _palette(accent3, fg);
+}
+
+.skill-title {
+  margin-bottom: (_size(element-margin) * 0.25);
+  color: _palette(accent3, fg);
+}

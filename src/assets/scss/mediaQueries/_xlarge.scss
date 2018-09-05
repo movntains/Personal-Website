@@ -1,0 +1,12 @@
+// -----------------------------
+// ----- MAX-WIDTH: 1800px -----
+// -----------------------------
+
+@include breakpoint(xlarge) {
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 12pt;
+	}
+}

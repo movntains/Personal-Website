@@ -1,0 +1,85 @@
+// -------------------------
+// ----- MISCELLANEOUS -----
+// -------------------------
+
+$misc: (
+	z-index-base: 10000
+);
+
+// --------------------
+// ----- DURATION -----
+// --------------------
+
+$duration: (
+	transition: 0.2s
+);
+
+// ----------------
+// ----- SIZE -----
+// ----------------
+
+$size-header-width: 35%;
+$size-header-pad: 4em;
+
+$size: (
+	border-radius: 0.4em,
+	element-height: 2.75em,
+	element-margin: 1.6em
+);
+
+// ----------------
+// ----- FONT -----
+// ----------------
+
+$font: (
+	family: ('Yantramanav', Helvetica, sans-serif),
+	family-fixed: ('Courier New', monospace),
+	weight: 100,
+	weight-bold: 400
+);
+
+// ------------------
+// ----- COLORS -----
+// ------------------
+
+$palette: (
+	bg: #1D2433,
+	fg: #8695B7,
+	fg-bold: #49BF9D,
+	fg-light: #A2AABC,
+	fg-alt: #FFAE57,
+	border: #6679A4,
+	border-bg: #F7F7F7,
+	border2: #DFDFDF,
+	border2-bg: #E7E7E7,
+
+	accent1: (
+		bg: #49BF9D,
+		fg:	mix(#49BF9D, #FFFFFF, 25%),
+		fg-bold: #FFFFFF,
+		fg-light:	mix(#49BF9D, #FFFFFF, 40%),
+		border:	rgba(255, 255, 255, 0.25),
+		border-bg: rgba(255, 255, 255, 0.075),
+		border2: rgba(255, 255, 255, 0.5),
+		border2-bg:	rgba(255, 255, 255, 0.2)
+	),
+
+	accent2: (
+		bg:	#1F1815,
+		fg:	#2F3B54,
+		fg-bold: #D7DCE2,
+		fg-light:	rgba(255, 255, 255, 0.4),
+		border:	rgba(255, 255, 255, 0.25),
+		border-bg: rgba(255, 255, 255, 0.075),
+		border2: rgba(255, 255, 255, 0.5),
+		border2-bg:	rgba(255, 255, 255, 0.2)
+	),
+
+	accent3: (
+		fg: #5CCFE6
+	),
+
+	accent4: (
+		fg: #EF6B73
+	)
+);

@@ -1,0 +1,104 @@
+// --------------------------
+// ----- REACT-DROPDOWN -----
+// --------------------------
+
+.Dropdown-root {
+  position: relative;
+}
+
+.Dropdown-control {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  cursor: default;
+  outline: none;
+  padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5);
+  border: 1px solid _palette(fg);
+  border-radius: 4px;
+  background-color: _palette(accent2, fg);
+  transition: all 200ms ease;
+
+  &:hover {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  }
+}
+
+.Dropdown-arrow {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  height: 0;
+  width: 0;
+  margin-top: -ceil(2.5);
+  border-style: solid;
+  border-width: 5px 5px 0;
+  border-color: _palette(accent1, bg) transparent transparent;
+}
+
+.Dropdown-menu {
+  box-sizing: border-box;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  max-height: 200px;
+  width: 100%;
+  margin-top: -1px;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid _palette(fg);
+  border-radius: 4px;
+  background-color: darken($color: _palette(accent2, fg), $amount: 5%);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+}
+
+.Dropdown-menu .Dropdown-group > .Dropdown-title {
+  padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: _palette(fg-light);
+}
+
+.Dropdown-option {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  padding: (_size(element-margin) * 0.25) (_size(element-margin) * 0.5);
+  color: _palette(fg-bold);
+
+  &:hover {
+    background-color: darken($color: _palette(accent2, fg), $amount: 10%);
+    color: _palette(accent2, fg-bold);
+  }
+
+  &.is-selected {
+    background-color: darken($color: _palette(accent2, fg), $amount: 10%);
+    color: _palette(accent2, fg-bold);
+  }
+}
+
+.is-open {
+  .Dropdown-arrow {
+    border-width: 0 5px 5px;
+    border-color: transparent transparent _palette(accent1, bg);
+  }
+
+  .Dropdown-control {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .Dropdown-menu {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+}
+
+// -------------------------------
+// ----- ADDITIONAL ELEMENTS -----
+// -------------------------------
+
+.dropdown-results {
+  margin-top: _size(element-margin);
+}

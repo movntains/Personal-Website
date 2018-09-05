@@ -1,0 +1,28 @@
+.degree-info {
+  border-bottom: 1px solid _palette(accent2, fg);
+  margin-bottom: _size(element-margin);
+
+  p {
+    margin-bottom: (_size(element-margin) * 0.15);
+  }
+
+  .degree,
+  .minor {
+    color: _palette(accent2, fg-bold);
+    font-style: italic;
+  }
+}
+
+.degree-courses {
+  .courses-info {
+    margin-bottom: (_size(element-margin) * 0.25);
+  }
+
+  ul {
+    margin-left: (_size(element-margin) * 0.5);
+
+    li {
+      color: lighten($color: _palette(fg), $amount: 10%);
+    }
+  }
+}
