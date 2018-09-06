@@ -36,12 +36,10 @@ class ContactForm extends Component {
                   >
                   </textarea>
                 </div>
+                <div className="submit-btn">
+                  <input type="submit" value="Send Message" />
+                </div>
               </div>
-              <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" />
-              </li>
-              </ul>
             </form>
           </div>
         </div>
