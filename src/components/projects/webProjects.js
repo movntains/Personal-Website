@@ -2,6 +2,7 @@ import React from 'react';
 
 import Gallery from '../Gallery';
 import mountainCalling from '../../assets/images/projects/mountainCalling.png';
+import lyricFinder from '../../assets/images/projects/lyricFinder.png';
 
 const projectImages = [
   {
@@ -10,6 +11,13 @@ const projectImages = [
     thumbnail: mountainCalling,
     caption: 'Mountain Calling',
     description: 'A React and Node.js web app for reviewing ski resorts'
+  },
+  {
+    id: '2',
+    src: '/web/lyricFinderInfo',
+    thumbnail: lyricFinder,
+    caption: 'Lyric Finder',
+    description: 'A React web app for finding song lyrics'
   }
 ];
 
