@@ -11,8 +11,13 @@ class ContactForm extends Component {
               name="contact"
               method="POST"
               action="/success"
-              netlify
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="form-name" value="contact" />
+              <div className="hidden">
+                <input type="text" name="bot-field" />
+              </div>
               <div className="row uniform 50%">
                 <div className="6u 12u$(xsmall)">
                   <input
