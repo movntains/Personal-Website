@@ -7,7 +7,12 @@ class ContactForm extends Component {
         <h2 className="page-title">Get in Touch</h2>
         <div className="row">
           <div className="12u">
-            <form method="POST" action="https://formspree.io/oppermanre17@gmail.com">
+            <form
+              name="contact"
+              method="POST"
+              action="/success"
+              netlify
+            >
               <div className="row uniform 50%">
                 <div className="6u 12u$(xsmall)">
                   <input
