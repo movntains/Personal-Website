@@ -4,7 +4,7 @@ import ProgressBar from '../../ProgressBar';
 
 const otherCourses = [
   { type: 'Practical JavaScript', percentage: 100 },
-  { type: 'Intro to macOS Development', percentage: 12 }
+  { type: 'Intro to macOS Development', percentage: 32 }
 ];
 
 const OtherCoursesBars = () => {

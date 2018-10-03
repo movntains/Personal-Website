@@ -8,6 +8,10 @@
       "path---web-mountain-calling-info-a0e39f21c11f6a62c5ab.js",
       "path---web-mountain-calling-info-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-web-lyric-finder-info-js": [
+      "component---src-pages-web-lyric-finder-info-js-9550165ed26f57c5c00f.js",
+      "component---src-pages-web-lyric-finder-info-js-9550165ed26f57c5c00f.js.map"
+    ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
@@ -56,17 +60,21 @@
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---web-lyric-finder-info": [
+      "path---web-lyric-finder-info-a0e39f21c11f6a62c5ab.js",
+      "path---web-lyric-finder-info-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-67c928bcb2791ed5dd87.js",
-      "component---src-pages-projects-js-67c928bcb2791ed5dd87.js.map"
+      "component---src-pages-projects-js-ab54d09f85e32d51b6b7.js",
+      "component---src-pages-projects-js-ab54d09f85e32d51b6b7.js.map"
     ],
     "component---src-pages-web-mountain-calling-info-js": [
       "component---src-pages-web-mountain-calling-info-js-531887b461c2f9fe7a97.js",
       "component---src-pages-web-mountain-calling-info-js-531887b461c2f9fe7a97.js.map"
     ],
     "app": [
-      "app-3c21d7d46cfee694e7aa.js",
-      "app-3c21d7d46cfee694e7aa.js.map"
+      "app-d3d499038dd29d0cbad4.js",
+      "app-d3d499038dd29d0cbad4.js.map"
     ],
     "component---src-pages-skills-js": [
       "component---src-pages-skills-js-965598a4a311e137d2a3.js",

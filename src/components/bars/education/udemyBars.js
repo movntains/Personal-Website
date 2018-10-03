@@ -5,7 +5,7 @@ import ProgressBar from '../../ProgressBar';
 const udemyCourses = [
   { type: 'CDGM', percentage: 100 },
   { type: 'MRWR', percentage: 100 },
-  { type: 'NWR', percentage: 66 },
+  { type: 'NWR', percentage: 86 },
   { type: 'WDB', percentage: 100 },
   { type: 'ES6 JavaScript', percentage: 100 },
   { type: 'JavaScript Weird', percentage: 100 },
