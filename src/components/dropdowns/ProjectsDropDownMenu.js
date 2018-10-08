@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Dropdown from 'react-dropdown';
 
-import WebProjects from '../projects/webProjects';
-import MacOSProjects from '../projects/macOSProjects';
+import ReactProjects from '../projects/reactProjects';
+import NodeProjects from '../projects/nodeProjects';
+import MongoProjects from '../projects/mongoProjects';
 
 const options = [
-  'Web',
-  'macOS',
-  'iOS'
+  'React',
+  'Node.js',
+  'MongoDB'
 ];
 
 class ProjectsDropdownMenu extends Component {
@@ -15,7 +16,7 @@ class ProjectsDropdownMenu extends Component {
     super(props);
 
     this.state = {
-      selected: 'Web'
+      selected: 'React'
     };
 
     this._onSelect = this._onSelect.bind(this);
@@ -29,14 +30,14 @@ class ProjectsDropdownMenu extends Component {
     switch(this.state.selected.label) {
       case null:
         return;
-      case 'Web':
-        return <WebProjects />;
-      case 'macOS':
-        return <MacOSProjects />;
-      case 'iOS':
-        return <div className="container">iOS projects coming soon.</div>;
+      case 'React':
+        return <ReactProjects />;
+      case 'Node.js':
+        return <NodeProjects />;
+      case 'MongoDB':
+        return <MongoProjects />;
       default:
-        return <WebProjects />;
+        return <ReactProjects />;
     }
   }
 

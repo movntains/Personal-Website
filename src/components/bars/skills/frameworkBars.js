@@ -5,7 +5,7 @@ import ProgressBar from '../../ProgressBar';
 const frameworks = [
   { type: 'Bootstrap', percentage: 90 },
   { type: 'jQuery', percentage: 70 },
-  { type: 'React & Redux', percentage: 50 },
+  { type: 'React & Redux', percentage: 65 },
   { type: 'Express', percentage: 65 },
   { type: 'Node', percentage: 70 },
   { type: 'Mocha', percentage: 50 }

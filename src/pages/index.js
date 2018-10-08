@@ -14,7 +14,7 @@ class HomeIndex extends Component {
 						</p>
 					</header>
 					<p>
-						I'm a software engineer who believes in clean, intuitive user interfaces and modular, DRY code. My primary focus is web development, but I also have some exposure to macOS and iOS development.
+						I'm a software engineer who believes in clean, intuitive user interfaces and modular, DRY code. My primary focus is fullstack web development with React, Node.js, and MongoDB.
 					</p>
 					<p>
 						I'm highly detail-oriented and organized, and I'm also a fast learner. I'm constantly working to improve my skills, as well as to increase both the breadth and depth of my knowledge.

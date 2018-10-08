@@ -1,19 +1,19 @@
 import React from 'react';
 
 import Gallery from '../Gallery';
-import slackClone from '../../assets/images/projects/slackClone.png';
+import mountainCalling from '../../assets/images/projects/mountainCalling.svg';
 
 const projectImages = [
   {
     id: '1',
-    src: '/macOS/slackCloneInfo',
-    thumbnail: slackClone,
-    caption: 'Slack Clone',
-    description: 'A macOS Slack clone written in Swift'
+    src: '/projects/mountainCalling',
+    thumbnail: mountainCalling,
+    caption: 'Mountain Calling',
+    description: 'A React and Node.js web app for reviewing ski resorts'
   }
 ];
 
-const MacOSProjects = () => {
+const MongoProjects = () => {
   return (
     <div className="container">
       <Gallery
@@ -29,4 +29,4 @@ const MacOSProjects = () => {
   );
 };
 
-export default MacOSProjects;
+export default MongoProjects;

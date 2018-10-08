@@ -1,27 +1,19 @@
 import React from 'react';
 
 import Gallery from '../Gallery';
-import mountainCalling from '../../assets/images/projects/mountainCalling.png';
-import lyricFinder from '../../assets/images/projects/lyricFinder.png';
+import mountainCalling from '../../assets/images/projects/mountainCalling.svg';
 
 const projectImages = [
   {
     id: '1',
-    src: '/web/mountainCallingInfo',
+    src: '/projects/mountainCalling',
     thumbnail: mountainCalling,
     caption: 'Mountain Calling',
     description: 'A React and Node.js web app for reviewing ski resorts'
-  },
-  {
-    id: '2',
-    src: '/web/lyricFinderInfo',
-    thumbnail: lyricFinder,
-    caption: 'Lyric Finder',
-    description: 'A React web app for finding song lyrics'
   }
 ];
 
-const WebProjects = () => {
+const NodeProjects = () => {
   return (
     <div className="container">
       <Gallery
@@ -37,4 +29,4 @@ const WebProjects = () => {
   );
 };
 
-export default WebProjects;
+export default NodeProjects;
