@@ -1,8 +1,9 @@
 import React from 'react';
 
+import renderBars from '../../../utils/renderBars';
 import ProgressBar from '../../ProgressBar';
 
-const programmingLanguages = [
+const PROGRAMMING_LANGUAGES = [
   { type: 'HTML', percentage: 75 },
   { type: 'CSS/Sass', percentage: 75 },
   { type: 'Java', percentage: 50 },
@@ -11,33 +12,10 @@ const programmingLanguages = [
   { type: 'Swift', percentage: 50 }
 ];
 
-const  ProgrammingLanguageBars = () => {
+const ProgrammingLanguageBars = () => {
   return (
     <div className="container">
-      <div className="bar-container">
-        <p className="skill-title">HTML</p>
-        <ProgressBar percentage={programmingLanguages[0].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">CSS/Sass</p>
-        <ProgressBar percentage={programmingLanguages[1].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Java</p>
-        <ProgressBar percentage={programmingLanguages[2].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">JavaScript</p>
-        <ProgressBar percentage={programmingLanguages[3].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">SQL</p>
-        <ProgressBar percentage={programmingLanguages[4].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Swift</p>
-        <ProgressBar percentage={programmingLanguages[5].percentage} />
-      </div>
+      {renderBars(PROGRAMMING_LANGUAGES)}
     </div>
   );
 };

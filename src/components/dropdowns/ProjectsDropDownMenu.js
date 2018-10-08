@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Dropdown from 'react-dropdown';
 
-import ReactProjects from '../projects/reactProjects';
-import NodeProjects from '../projects/nodeProjects';
-import MongoProjects from '../projects/mongoProjects';
+import ReactProjects from '../projects/ReactProjects';
+import NodeProjects from '../projects/NodeProjects';
+import MongoProjects from '../projects/MongoProjects';
 
 const options = [
   'React',

@@ -6,7 +6,7 @@ import mountainCalling from '../../assets/images/projects/mountainCalling.svg';
 const projectImages = [
   {
     id: '1',
-    src: '/projects/mountainCalling',
+    src: '/projects/MountainCalling',
     thumbnail: mountainCalling,
     caption: 'Mountain Calling',
     description: 'A React and Node.js web app for reviewing ski resorts'

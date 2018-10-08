@@ -1,8 +1,9 @@
 import React from 'react';
 
+import renderBars from '../../../utils/renderBars';
 import ProgressBar from '../../ProgressBar';
 
-const templateEngines = [
+const TEMPLATE_ENGINES = [
   { type: 'EJS', percentage: 30 },
   { type: 'Pug', percentage: 70 }
 ];
@@ -10,14 +11,7 @@ const templateEngines = [
 const TemplateEngineBars = () => {
   return (
     <div className="container">
-      <div className="bar-container">
-        <p className="skill-title">EJS</p>
-        <ProgressBar percentage={templateEngines[0].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Pug</p>
-        <ProgressBar percentage={templateEngines[1].percentage} />
-      </div>
+      {renderBars(TEMPLATE_ENGINES)}
     </div>
   );
 };

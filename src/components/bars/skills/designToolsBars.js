@@ -1,8 +1,9 @@
 import React from 'react';
 
+import renderBars from '../../../utils/renderBars';
 import ProgressBar from '../../ProgressBar';
 
-const designTools = [
+const DESIGN_TOOLS = [
   { type: 'Adobe Illustrator', percentage: 40 },
   { type: 'Adobe Photoshop', percentage: 50 },
   { type: 'Adobe XD', percentage: 60 },
@@ -11,33 +12,10 @@ const designTools = [
   { type: 'Sketch', percentage: 65 }
 ];
 
-const  DesignToolsBars = () => {
+const DesignToolsBars = () => {
   return (
     <div className="container">
-      <div className="bar-container">
-        <p className="skill-title">Adobe Illustrator</p>
-        <ProgressBar percentage={designTools[0].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Adobe Photoshop</p>
-        <ProgressBar percentage={designTools[1].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Adobe XD</p>
-        <ProgressBar percentage={designTools[2].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Lucidchart</p>
-        <ProgressBar percentage={designTools[3].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Microsoft Viseo Professional</p>
-        <ProgressBar percentage={designTools[4].percentage} />
-      </div>
-      <div className="bar-container">
-        <p className="skill-title">Sketch</p>
-        <ProgressBar percentage={designTools[5].percentage} />
-      </div>
+      {renderBars(DESIGN_TOOLS)}
     </div>
   );
 };
