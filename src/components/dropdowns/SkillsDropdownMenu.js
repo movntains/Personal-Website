@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Dropdown from 'react-dropdown';
 
-import ProgrammingLanguageBars from '../bars/skills/ProgrammingLanguageBars';
-import FrameworkBars from '../bars/skills/FrameworkBars';
-import DatabaseBars from '../bars/skills/DatabaseBars';
-import TemplateEngineBars from '../bars/skills/TemplateEngineBars';
-import DesignToolsBars from '../bars/skills/DesignToolsBars';
-import OtherToolsBars from '../bars/skills/OtherToolsBars';
+import ProgrammingLanguageBars from '../bars/skills/programmingLanguageBars';
+import FrameworkBars from '../bars/skills/frameworkBars';
+import DatabaseBars from '../bars/skills/databaseBars';
+import TemplateEngineBars from '../bars/skills/templateEngineBars';
+import DesignToolsBars from '../bars/skills/designToolsBars';
+import OtherToolsBars from '../bars/skills/otherToolsBars';
 
 const options = [
   'Programming Languages',

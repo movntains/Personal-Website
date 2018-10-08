@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Dropdown from 'react-dropdown';
 
-import BostonUniversity from '../education/formal/BostonUniversity';
-import UMDNJ from '../education/formal/UMDNJ';
-import RiderUniversity from '../education/formal/RiderUniversity';
-import UdemyBars from '../bars/education/UdemyBars';
-import CodecademyBars from '../bars/education/CodecademyBars';
-import OtherCoursesBars from '../bars/education/OtherCoursesBars';
-import BooksBars from '../bars/education/BooksBars';
+import BostonUniversity from '../education/formal/bu';
+import UMDNJ from '../education/formal/umdnj';
+import RiderUniversity from '../education/formal/ru';
+import UdemyBars from '../bars/education/udemyBars';
+import CodecademyBars from '../bars/education/codecademyBars';
+import OtherCoursesBars from '../bars/education/otherCoursesBars';
+import BooksBars from '../bars/education/booksBars';
 
 const options = [
   'Formal Education',
