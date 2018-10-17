@@ -6,7 +6,9 @@ import ProgressBar from '../../ProgressBar';
 const FRAMEWORKS_FRONTEND = [
   { type: 'Bootstrap', percentage: 90 },
   { type: 'jQuery', percentage: 70 },
-  { type: 'React & Redux', percentage: 65 }
+  { type: 'Next.js', percentage: 50 },
+  { type: 'React', percentage: 75 },
+  { type: 'Redux', percentage: 70 }
 ];
 
 const FRAMEWORKS_BACKEND = [

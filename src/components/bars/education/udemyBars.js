@@ -7,6 +7,7 @@ const UDEMY_WEB = [
   { type: 'The Complete Developer\'s Guide to MongoDB', percentage: 100 },
   { type: 'Modern React with Redux', percentage: 100 },
   { type: 'Node with React: Fullstack Web Development', percentage: 100 },
+  { type: 'Node.js: Advanced Concepts', percentage: 25 },
   { type: 'The Web Developer Bootcamp', percentage: 100 }
 ];
 
