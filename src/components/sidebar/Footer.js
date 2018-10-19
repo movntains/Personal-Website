@@ -26,6 +26,15 @@ class Footer extends Component {
 							</a>
 						</li>
 						<li>
+							<a
+								href="https://medium.com/@movntains"
+								target="_blank"
+								className="icon fa-medium"
+							>
+								<span className="label">Medium</span>
+							</a>
+						</li>
+						<li>
 							<Link to="/contact" className="icon fa-envelope-o">
 								<span className="label">Contact</span>
 							</Link>
