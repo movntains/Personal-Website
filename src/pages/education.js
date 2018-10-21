@@ -6,9 +6,9 @@ class Education extends Component {
   render() {
     return (
       <div className="main">
-				<h2 className="page-title">Education</h2>
+        <h2 className="page-title">Education</h2>
         <EducationDropdownMenu />
-			</div>
+      </div>
     );
   }
 }

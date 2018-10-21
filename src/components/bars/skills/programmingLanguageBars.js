@@ -1,7 +1,6 @@
 import React from 'react';
 
 import renderBars from '../../../utils/renderBars';
-import ProgressBar from '../../ProgressBar';
 
 const PROGRAMMING_LANGUAGES = [
   { type: 'HTML', percentage: 75 },
@@ -12,12 +11,8 @@ const PROGRAMMING_LANGUAGES = [
   { type: 'SQL', percentage: 60 }
 ];
 
-const ProgrammingLanguageBars = () => {
-  return (
-    <div className="container">
-      {renderBars(PROGRAMMING_LANGUAGES)}
-    </div>
-  );
-};
+const ProgrammingLanguageBars = () => (
+  <div className="container">{renderBars(PROGRAMMING_LANGUAGES)}</div>
+);
 
 export default ProgrammingLanguageBars;

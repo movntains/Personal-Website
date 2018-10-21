@@ -1,48 +1,36 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
 class Gallery extends Component {
-	constructor() {
-		super();
-	}
+  renderGallery() {
+    const { images } = this.props;
 
-	renderGallery() {
-		const { images } = this.props;
+    if (!images) {
+      return;
+    }
 
-		if (!images) {
-			return;
-		}
+    const gallery = images.map((obj, i) => (
+      <div className="6u 12u$(xsmall) work-item" key={i}>
+        <Link className="image fit thumb" to={obj.src}>
+          <img src={obj.thumbnail} alt="Project" />
+        </Link>
 
-		const gallery = images.map((obj, i) => {
-			return (
-				<div className="6u 12u$(xsmall) work-item" key={i}>
-					<Link
-						className="image fit thumb"
-						to={obj.src}
-					>
-						<img src={obj.thumbnail} />
-					</Link>
+        <h3>{obj.caption}</h3>
+        <p>{obj.description}</p>
+      </div>
+    ));
 
-					<h3>{obj.caption}</h3>
-					<p>{obj.description}</p>
-				</div>
-			);
-		});
+    return <div className="row">{gallery}</div>;
+  }
 
-		return (
-			<div className="row">
-				{gallery}
-			</div>
-		);
-	}
-
-	render() {
-		return (
-			<div>
-				{this.renderGallery()}
-			</div>
-		);
-	}
+  render() {
+    return <div>{this.renderGallery()}</div>;
+  }
 }
+
+Gallery.propTypes = {
+  images: PropTypes.array
+};
 
 export default Gallery;

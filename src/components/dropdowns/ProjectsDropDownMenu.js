@@ -5,11 +5,7 @@ import ReactProjects from '../projects/reactProjects';
 import NodeProjects from '../projects/nodeProjects';
 import MongoProjects from '../projects/mongoProjects';
 
-const options = [
-  'React',
-  'Node.js',
-  'MongoDB'
-];
+const options = ['React', 'Node.js', 'MongoDB'];
 
 class ProjectsDropdownMenu extends Component {
   constructor(props) {
@@ -27,7 +23,9 @@ class ProjectsDropdownMenu extends Component {
   }
 
   renderContent() {
-    switch(this.state.selected.label) {
+    const { selected } = this.state;
+
+    switch (selected.label) {
       case null:
         return;
       case 'React':
@@ -42,14 +40,16 @@ class ProjectsDropdownMenu extends Component {
   }
 
   render() {
-    const defaultOption = this.state.selected;
+    const { selected } = this.state;
 
-    return(
+    return (
       <div>
-        <Dropdown options={options} onChange={this._onSelect} value={defaultOption} />
-        <div className="dropdown-results">
-          {this.renderContent()}
-        </div>
+        <Dropdown
+          options={options}
+          onChange={this._onSelect}
+          value={selected}
+        />
+        <div className="dropdown-results">{this.renderContent()}</div>
       </div>
     );
   }

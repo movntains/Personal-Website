@@ -13,20 +13,19 @@ const projectImages = [
   }
 ];
 
-const NodeProjects = () => {
-  return (
-    <div className="container">
-      <Gallery
-        images={projectImages.map(({ id, src, thumbnail, caption, description }) => ({
-            src,
-            thumbnail,
-            caption,
-            description
-          })
-        )}
-      />
-    </div>
-  );
-};
+const NodeProjects = () => (
+  <div className="container">
+    <Gallery
+      images={projectImages.map(
+        ({ id, src, thumbnail, caption, description }) => ({
+          src,
+          thumbnail,
+          caption,
+          description
+        })
+      )}
+    />
+  </div>
+);
 
 export default NodeProjects;

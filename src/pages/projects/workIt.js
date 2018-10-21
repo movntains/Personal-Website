@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class LyricFinderInfo extends Component {
+class WorkItInfo extends Component {
   render() {
     return (
       <div className="main">
-        <h2 className="page-title">Lyric Finder</h2>
+        <h2 className="page-title">Work It</h2>
         <a
           className="button"
-          href="https://github.com/movntains/Lyric-Finder"
+          href="https://github.com/movntains/Work-It"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -15,7 +15,7 @@ class LyricFinderInfo extends Component {
         </a>
         <a
           className="button"
-          href="https://lyricfinder.surge.sh/"
+          href="https://work-it.surge.sh/"
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -24,11 +24,10 @@ class LyricFinderInfo extends Component {
         <div className="container">
           <h2 className="secondary-title">Background</h2>
           <p>
-            Lyric Finder is a React web application that uses the Musixmatch API
-            to search for song lyrics. As there is little application state to
-            manage, the Context API is used in lieu of Redux. HTTP GET requests
-            are made with Axios, and Moment.js is used to format the release
-            date of an album.
+            Work It is a React web application that functions as a Pomodoro
+            timer. It utilizes styled components and has the functionality for
+            increasing/decreasing the session time, break time, and session goal
+            number, as well as pausing and resetting the timer.
           </p>
         </div>
 
@@ -37,11 +36,8 @@ class LyricFinderInfo extends Component {
           <p>This project uses the following technologies:</p>
           <ul>
             <li>React</li>
-            <li>React Router</li>
-            <li>Context API</li>
-            <li>Bootstrap</li>
-            <li>Axios</li>
-            <li>Moment.js</li>
+            <li>Styled components</li>
+            <li>Flexbox</li>
           </ul>
         </div>
       </div>
@@ -49,4 +45,4 @@ class LyricFinderInfo extends Component {
   }
 }
 
-export default LyricFinderInfo;
+export default WorkItInfo;

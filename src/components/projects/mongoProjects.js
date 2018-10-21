@@ -13,20 +13,19 @@ const projectImages = [
   }
 ];
 
-const MongoProjects = () => {
-  return (
-    <div className="container">
-      <Gallery
-        images={projectImages.map(({ id, src, thumbnail, caption, description }) => ({
-            src,
-            thumbnail,
-            caption,
-            description
-          })
-        )}
-      />
-    </div>
-  );
-};
+const MongoProjects = () => (
+  <div className="container">
+    <Gallery
+      images={projectImages.map(
+        ({ id, src, thumbnail, caption, description }) => ({
+          src,
+          thumbnail,
+          caption,
+          description
+        })
+      )}
+    />
+  </div>
+);
 
 export default MongoProjects;

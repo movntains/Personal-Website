@@ -7,42 +7,42 @@
 // ----- BUTTON -----
 // ------------------
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
 .button {
-	position: relative;
-	-ms-behavior: url('assets/js/ie/PIE.htc');
+  position: relative;
+  -ms-behavior: url('assets/js/ie/PIE.htc');
 }
 
 // ----------------
 // ----- FORM -----
 // ----------------
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
 select,
 textarea {
-	position: relative;
-	-ms-behavior: url('assets/js/ie/PIE.htc');
+  position: relative;
+  -ms-behavior: url('assets/js/ie/PIE.htc');
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
+input[type='text'],
+input[type='password'],
+input[type='email'],
 select {
-	height: _size(element-height);
-	line-height: _size(element-height);
+  height: _size(element-height);
+  line-height: _size(element-height);
 }
 
-input[type="checkbox"],
-input[type="radio"] {
-	& + label {
-		&:before {
-			display: none;
-		}
-	}
+input[type='checkbox'],
+input[type='radio'] {
+  & + label {
+    &:before {
+      display: none;
+    }
+  }
 }
 
 // -----------------
@@ -50,18 +50,18 @@ input[type="radio"] {
 // -----------------
 
 .image {
-	position: relative;
-	-ms-behavior: url('assets/js/ie/PIE.htc');
+  position: relative;
+  -ms-behavior: url('assets/js/ie/PIE.htc');
 
-	&:before,
-	&:after {
-		display: none !important;
-	}
+  &:before,
+  &:after {
+    display: none !important;
+  }
 
-	img {
-		position: relative;
-		-ms-behavior: url('assets/js/ie/PIE.htc');
-	}
+  img {
+    position: relative;
+    -ms-behavior: url('assets/js/ie/PIE.htc');
+  }
 }
 
 // ------------------
@@ -69,14 +69,14 @@ input[type="radio"] {
 // ------------------
 
 #header {
-	background-image: url('../../images/bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	-ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
+  background-image: url('../../images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
 
-	h1 {
-		color: _palette(accent2, fg-bold);
-	}
+  h1 {
+    color: _palette(accent2, fg-bold);
+  }
 }
 
 // ------------------
@@ -84,9 +84,9 @@ input[type="radio"] {
 // ------------------
 
 #footer {
-	.icons {
-		a {
-			color: _palette(accent2, fg-bold);
-		}
-	}
+  .icons {
+    a {
+      color: _palette(accent2, fg-bold);
+    }
+  }
 }

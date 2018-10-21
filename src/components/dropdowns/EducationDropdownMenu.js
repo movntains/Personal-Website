@@ -33,7 +33,7 @@ class EducationDropdownMenu extends Component {
   }
 
   renderContent() {
-    switch(this.state.selected.label) {
+    switch (this.state.selected.label) {
       case null:
         return;
       case 'Formal Education':
@@ -64,14 +64,16 @@ class EducationDropdownMenu extends Component {
   }
 
   render() {
-    const defaultOption = this.state.selected;
+    const { selected } = this.state;
 
-    return(
+    return (
       <div>
-        <Dropdown options={options} onChange={this._onSelect} value={defaultOption} />
-        <div className="dropdown-results">
-          {this.renderContent()}
-        </div>
+        <Dropdown
+          options={options}
+          onChange={this._onSelect}
+          value={selected}
+        />
+        <div className="dropdown-results">{this.renderContent()}</div>
       </div>
     );
   }

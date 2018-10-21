@@ -1,24 +1,27 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 import Filler from './Filler';
 
 class ProgressBar extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      percentage: 0
-    };
-  }
-
   render() {
+    const { percentage } = this.props;
+
     return (
       <div className="progress-bar">
-        <div className="percentage">{`${this.props.percentage}%`}</div>
-        <Filler percentage={this.props.percentage} />
+        <div className="percentage">{`${percentage}%`}</div>
+        <Filler percentage={percentage} />
       </div>
     );
   }
 }
+
+ProgressBar.propTypes = {
+  percentage: PropTypes.number
+};
+
+ProgressBar.defaultProps = {
+  percentage: 0
+};
 
 export default ProgressBar;

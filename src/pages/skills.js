@@ -6,9 +6,9 @@ class Skills extends Component {
   render() {
     return (
       <div className="main">
-				<h2 className="page-title">Skills</h2>
+        <h2 className="page-title">Skills</h2>
         <SkillsDropdownMenu />
-			</div>
+      </div>
     );
   }
 }

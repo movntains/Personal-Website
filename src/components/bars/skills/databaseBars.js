@@ -1,7 +1,6 @@
 import React from 'react';
 
 import renderBars from '../../../utils/renderBars';
-import ProgressBar from '../../ProgressBar';
 
 const DATABASES = [
   { type: 'Microsoft SQL Server', percentage: 50 },
@@ -10,12 +9,8 @@ const DATABASES = [
   { type: 'Oracle', percentage: 75 }
 ];
 
-const DatabaseBars = () => {
-  return (
-    <div className="container">
-      {renderBars(DATABASES)}
-    </div>
-  );
-};
+const DatabaseBars = () => (
+  <div className="container">{renderBars(DATABASES)}</div>
+);
 
 export default DatabaseBars;

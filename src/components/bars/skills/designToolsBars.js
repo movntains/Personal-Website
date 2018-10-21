@@ -1,7 +1,6 @@
 import React from 'react';
 
 import renderBars from '../../../utils/renderBars';
-import ProgressBar from '../../ProgressBar';
 
 const DESIGN_TOOLS = [
   { type: 'Adobe Illustrator', percentage: 40 },
@@ -12,12 +11,8 @@ const DESIGN_TOOLS = [
   { type: 'Sketch', percentage: 65 }
 ];
 
-const DesignToolsBars = () => {
-  return (
-    <div className="container">
-      {renderBars(DESIGN_TOOLS)}
-    </div>
-  );
-};
+const DesignToolsBars = () => (
+  <div className="container">{renderBars(DESIGN_TOOLS)}</div>
+);
 
 export default DesignToolsBars;

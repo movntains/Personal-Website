@@ -20,12 +20,7 @@ class ContactForm extends Component {
               </div>
               <div className="row uniform 50%">
                 <div className="6u 12u$(xsmall)">
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Name"
-                  />
+                  <input type="text" name="name" id="name" placeholder="Name" />
                 </div>
                 <div className="6u 12u$(xsmall)">
                   <input
@@ -43,8 +38,7 @@ class ContactForm extends Component {
                     placeholder="Message"
                     rows="4"
                     required
-                  >
-                  </textarea>
+                  />
                 </div>
                 <div className="submit-btn">
                   <input type="submit" value="Send Message" />

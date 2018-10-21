@@ -19,33 +19,39 @@
 
 @import 'libs/skel';
 
-@include skel-breakpoints((
-	xlarge: '(max-width: 1800px)',
-	large: '(max-width: 1280px)',
-	medium: '(max-width: 980px)',
-	small: '(max-width: 736px)',
-	xsmall: '(max-width: 480px)'
-));
+@include skel-breakpoints(
+  (
+    xlarge: '(max-width: 1800px)',
+    large: '(max-width: 1280px)',
+    medium: '(max-width: 980px)',
+    small: '(max-width: 736px)',
+    xsmall: '(max-width: 480px)'
+  )
+);
 
-@include skel-layout((
-	reset: 'full',
-	boxModel: 'border',
-	grid: ( gutters: 2.5em ),
-	conditionals: true,
-	containers: true,
-	breakpoints: (
-		large: (
-			grid: (
-				gutters: 2em
-			),
-		),
-		small: (
-			grid: (
-				gutters: 1.5em
-			),
-		)
-	)
-));
+@include skel-layout(
+  (
+    reset: 'full',
+    boxModel: 'border',
+    grid: (
+      gutters: 2.5em
+    ),
+    conditionals: true,
+    containers: true,
+    breakpoints: (
+      large: (
+        grid: (
+          gutters: 2em
+        )
+      ),
+      small: (
+        grid: (
+          gutters: 1.5em
+        )
+      )
+    )
+  )
+);
 
 // ----------------
 // ----- BASE -----
