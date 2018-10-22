@@ -4,6 +4,7 @@ import Gallery from '../Gallery';
 import mountainCalling from '../../assets/images/projects/mountainCalling.svg';
 import lyricFinder from '../../assets/images/projects/lyricFinder.svg';
 import workIt from '../../assets/images/projects/workIt.svg';
+import lingo from '../../assets/images/projects/lingo.svg';
 
 const projectImages = [
   {
@@ -26,6 +27,13 @@ const projectImages = [
     thumbnail: workIt,
     caption: 'Work It',
     description: 'A React Pomodoro timer'
+  },
+  {
+    id: '4',
+    src: '/projects/lingo',
+    thumbnail: lingo,
+    caption: 'Lingo',
+    description: 'A React translation app'
   }
 ];
 
@@ -34,6 +42,7 @@ const ReactProjects = () => (
     <Gallery
       images={projectImages.map(
         ({ id, src, thumbnail, caption, description }) => ({
+          id,
           src,
           thumbnail,
           caption,

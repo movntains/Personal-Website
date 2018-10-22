@@ -17,6 +17,7 @@
   border-radius: 4px;
   background-color: _palette(accent2, fg);
   transition: all 200ms ease;
+  color: lighten($color: _palette(fg), $amount: 20%);
 
   &:hover {
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);

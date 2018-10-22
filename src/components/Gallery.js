@@ -10,8 +10,8 @@ class Gallery extends Component {
       return;
     }
 
-    const gallery = images.map((obj, i) => (
-      <div className="6u 12u$(xsmall) work-item" key={i}>
+    const gallery = images.map(obj => (
+      <div className="6u 12u$(xsmall) work-item" key={obj.id}>
         <Link className="image fit thumb" to={obj.src}>
           <img src={obj.thumbnail} alt="Project" />
         </Link>
